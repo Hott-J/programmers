@@ -9,6 +9,7 @@ cnt = 0
 temp = 0
 res = []
 ans = []
+res1 = -2149000
 
 for s in range(1,101):
     chk = [[0]*N for _ in range(N)]
@@ -30,9 +31,8 @@ for s in range(1,101):
                             #temp +=1
                 #res.append(temp)
                 cnt+=1
+    res1=max(res1,cnt)
     if cnt==0:
         break
-    ans.append(cnt)
-#print(res)
-print(ans)
-print(max(ans))
+print(res1)
+#print(ans)
