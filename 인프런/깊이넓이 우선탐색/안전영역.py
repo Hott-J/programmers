@@ -9,7 +9,7 @@ cnt = 0
 temp = 0
 res = []
 ans = []
-res1 = -2149000
+res1 = 0
 
 for s in range(1,101):
     chk = [[0]*N for _ in range(N)]
