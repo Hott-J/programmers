@@ -11,7 +11,7 @@ res = []
 ans = []
 res1 = 0
 
-for s in range(1,101):
+for s in range(100):
     chk = [[0]*N for _ in range(N)]
     cnt = 0
     for i in range(N):
